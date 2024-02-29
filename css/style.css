@@ -1,0 +1,273 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto; 
+}
+.clearfix {
+    clear: both;
+}
+.to-uppercase {
+    text-transform: uppercase;
+}
+/* Main header */
+.logo img {
+    width: 63px;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 100%);
+    z-index: 10;
+}
+.main-navigation {
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-navigation_item {
+    display: inline-block;
+    padding: 10px;
+}
+.main-navigation_item a {
+    text-decoration: none;
+    color: #05364d;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.main-navigation_item a:hover {
+    color: #efb6df;
+}
+.main-navigation_item.active a {
+    color: #efb6df;
+}
+
+/* Main Section */
+
+.main-section {
+    padding-top: 200px;
+}
+
+.main-section > div {
+    width: 50%;
+    float: left;
+}
+.main-section_image {
+    text-align: right;
+}
+.main-section_welcome {
+
+    font-size: 16px;
+    font-weight: 400;
+    color: #797979;
+    margin-bottom: 18px;
+    letter-spacing: 2px;
+
+}
+
+.main-section_introduction {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #212529;
+    margin-top: 20px;
+
+}
+.main-section_position {
+    font-size: 20px;
+    color: #212529;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.main-section_icon a {
+    color: #8fa1aa;
+    cursor: pointer;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.main-section_icon a:hover {
+    color: #1c44e4;
+}
+.main-section_button {
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 38px;
+    color: #fff;
+    margin-top: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* Statistics section */
+
+.statistics {
+    padding-top: 100px;
+}
+
+.statistics_item {
+    display: inline-block;
+    color: #f8faff;
+    text-align: center;
+    padding: 5px 10px;
+    margin-right: 20px;
+    width: 120px;
+}
+.statistics_number {
+    font-size: 27px;
+    margin-bottom: 5px;
+    color: #1c44e4;
+}
+.statistics_title {
+    font-size: 16px;
+    color: #797979;
+    font-weight: 300;
+}
+/* About Me Section */
+
+.about-me {
+    padding: 100px 0;
+}
+
+.about-me > div {
+    width: 50%;
+    float: left;
+}
+
+.about_image img {
+    width: 450px;
+}
+
+
+.about_subititle {
+    color: #888;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    position: relative;
+}
+
+.about_title {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.about_text {
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    color: #05364d;
+    text-transform: capitalize;
+}
+.blur-line {
+    display: inline-block;
+    height: 4px;
+    width: 80px;
+    margin-left: 5px;
+    background-color: rgba(237, 35, 159, 0.6);
+    filter: blur(4px);
+    border-radius: 4px;
+}
+.button {
+    color: #fff;
+    background-color: #1c44e4;
+    padding: 20px 40px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* Service section */
+.service {
+    padding: 100px;
+    
+}
+
+.service_card {
+   
+    display: inline-block;
+    width: 30%;
+    padding: 60px 30px;
+    background-color: #f8faff;
+    margin-right: 3%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+.service_card_title {
+
+    font-size: 20px;
+    font-weight: 500;
+    color: #05364d;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+}
+
+.service_card_description {
+    font-size: 14px;
+    color: #8888;
+    line-height: 27px;
+    font-weight: 300;
+}
+
+.service_card_link {
+    text-decoration: none;
+    color: #05364d;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.service_card:hover {
+    background-color: #5f30ff;
+}
+.service_card:hover .service_card_title,
+.service_card:hover .service_card_description,
+.service_card:hover .service_card_link {
+    color: #fff;
+}
+
+.portfolio_lists {
+    padding-left: 0;
+
+
+}
+.portfolio_list  {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+    color: #797979;
+}
+.portfolio_list:hover {
+    color: #1c44e4;
+}
+.portfolio_list.active {
+    color: #1c44e4;
+}
+
+
+
